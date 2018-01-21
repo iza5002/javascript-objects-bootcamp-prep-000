@@ -1,5 +1,7 @@
 var playlist = new Object({ Timbaland: 'The Way You Are' })
 
-function updatePlaylist(){
+function updatePlaylist(obj, key, value){
+  obj[key] = value
   
+  return obj
 }
